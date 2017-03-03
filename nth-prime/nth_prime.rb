@@ -16,7 +16,7 @@ class Prime
   end
  
   def self.prime? number
-    (2 .. number/2).none? { |n| number % n == 0}
+    (2 .. number/2).none? { |n| number % n == 0 }
   end
 end
 
